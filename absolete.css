@@ -1,0 +1,115 @@
+
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fbf7ec;
+
+}
+
+.basic-info{
+    padding-top: 40px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* margin-right: auto; */
+    width: 40%;
+    border: 2px solid red;
+}
+
+.name-div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.name-field{
+    background-color: red;
+    width: 100%;
+    height: 45px;
+
+}
+
+.email-div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.email-field{
+    width: 100%;
+    height: 45px;
+}
+
+.job-role-div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.job-role-field{
+    width: 100%;
+    height: 45px;
+}
+
+.tshirt-info{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    border: 2px solid red;
+}
+
+.size-design-container{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    justify-content: center;
+
+}
+
+.size-div{
+    margin-top: 20px;
+    margin-right: 35px;
+}
+
+.size-field{
+    width: 100%;
+    height: 45px;
+}
+
+.design-div{
+    margin-top: 20px;
+}
+
+.design-field{
+    width: 100%;
+    height: 45px;
+}
+
+.color-div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.color-field{
+    width: 60%;
+    height: 45px;
+}
+
+.other-job-div{
+    margin-top: 33.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.other-job-field{
+    width: 60%;
+    height: 45px;
+}

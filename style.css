@@ -1,0 +1,315 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: "Roboto", sans-serif;
+}
+
+img ,label,input,select{
+    display:block;
+    height: 20px;
+}
+
+
+label{
+    margin-top: 20px;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(135deg,rgb(255, 93, 93), rgb(247, 174, 40));
+    border: 2px solid red;
+
+}
+
+.header-h4{
+    color: whitesmoke;
+}
+
+.header-heading{
+    color: white;
+}
+
+.info-aside{
+    background-color: #fbf7ec;
+    display: flex;
+    /* justify-content: start; */
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+
+.main-container{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+
+    /* border: 2px solid green; */
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+    
+}
+.info-item{
+
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+
+    width: 50%;
+
+}
+
+.basic-info{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+
+}
+
+.basic-title{
+    width: 50%;
+}
+
+.name-div{
+    width:50%;
+}
+
+.name-field{
+    height: 50px;
+    width: 80%;
+}
+
+.email-div{
+    width: 50%;
+    /* margin-bottom: 5px; */
+}
+
+.email-field{
+    height: 50px;
+    width: 80%;
+}
+
+.job-role-div{
+    width: 50%;
+}
+
+.job-role-field{
+    height: 50px;
+    width: 80%;
+}
+
+
+.size-design-color-container{
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    padding-bottom: 0px;
+
+}
+
+
+.tshirt-info{
+    border: 2px solid black;
+}
+
+.tshirt-info-item{
+
+width: 100%;
+/* border: 2px solid red; */
+
+}
+.size-design-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 95%;
+    
+}
+
+
+.field{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 90%;
+}
+
+.size-div{
+    width: 10%;
+}
+
+.size-field{
+    width: 120%;
+}
+
+.design-div{
+    width: 40%;
+}
+
+.design-field{
+    /* border: 2px solid red; */
+    width: 80%;
+}
+
+
+.color-div{
+    width: 49%;
+}
+
+.other-job-field{
+    height: 50px;
+    width: 48%;
+}
+
+/* ACTIVITY SECTION */
+
+.activity-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.activity-section > h1{
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.main-conference-art{
+    border: 2px solid red;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+.main-conference-art > div{
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.main-conference-art > div > input{
+    margin-right: 10px;
+    width: 15px;
+}
+
+.main-conference-art > div > p{
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.main-conference-art > p{
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+
+/* Other Articles */
+
+.other-articles-section{
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    align-items: start;
+    gap: 1%;
+    /* height: 80px; */
+    flex-wrap: wrap;
+}
+
+.art{
+    width: 49.5%;
+    border: 2px solid red;
+    height: 110px;
+    margin-bottom: 20px;
+
+}
+
+.other-art-title-div{
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.other-art-title-div > input{
+    margin-right: 10px;
+    width: 15px;
+}
+
+
+.other-art-title-div > p{
+    margin-right: auto;
+    /* border: 2px solid red; */
+    font-weight: bold;
+    /* font-size: 16px; */
+}
+
+.other-art-schedule-div{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.other-art-schedule-div > p{
+    margin-right: auto;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.other-art-schedule-div > span{
+    font-weight: bold;
+}
+
+.total-amount{
+    width:50%;
+    display: flex;
+    justify-content: end;
+}
+
+/* PAYMENT INFORMATION */
+
+.payment-info{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.payment-info > h1{
+    margin-bottom: 25px;
+}
+
+
+.payment-section{
+    display: flex;
+    flex-direction: column;
+
+}

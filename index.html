@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="header-container">
+        <h4 class="header-h4">Register for</h4>
+        <h1 class="header-heading">Full Stack Conference</h1>
+    </header>
+
+    <aside class="info-aside">
+        <p>*-required field</p>
+    </aside>
+
+
+    <main class="main-container">
+
+        <section class="info">
+            <section class="info-item basic-info section-left">
+                <h2 class="basic-title">Basic Info</h2>
+
+                <div class="name-div">
+                    <label for="name">Name:*</label>
+                    <input type="text" class="name-field">
+                </div>
+
+                <div class="email-div">
+                    <label for="email">Email:*</label>
+                    <input type="email" class="email-field">
+                </div>
+
+                <div class="job-role-div">
+                    <label for="job">Job Role</label>
+                    <select name="job-roles" id="job-select" class="job-role-field">
+                        <option value="">Select Job Role</option>
+                        <option value="Front-end Developer">Front-end Developer</option>
+                        <option value="Back-end Developer">Back-end Developer</option>
+                        <option value="Full-stack Developer">Full-stack Developer</option>
+                        <option value="AWS Developer">AWS Developer</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="info-item tshirt-info section-right">
+                
+            <div class="size-design-color-container"><h2 class="tshirt-info-item tshirt">T-Shirt Info</h2>
+
+                <div class="tshirt-info-item size-design-container">
+                    <div class="size-div">
+                        <label for="size">Size:</label>
+                        <select name="size" class="field size-field">
+                            <option value="xs">XS</option>
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                        </select>
+                    </div>
+
+                    <div class="design-div">
+                        <label for="design">Design:</label>
+                        <select name="design" class="field design-field">
+                            <option value="">Select theme</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="tshirt-info-item color-div">
+                    <label for="name">Color:</label>
+                    <select name="color" class="field color-field">
+                        <option value="">Select a design theme above</option>
+                        <option value="black">Black</option>
+                        <option value="white">White</option>
+                        <option value="green">Green</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="tshirt-info-item other-job-div">
+                    <label for="other-job other-job-label"></label>
+                    <input type="text" name="other-job" placeholder="Other Job role?" class="field other-job-field">
+            </div>
+            </section>
+
+        </section>
+
+        <section class="activity-section">
+            <h1>Register for Activities*</h1>
+            <article class="main-conference-art card">
+               <div class="main-conference-div">
+                    <input type="checkbox">
+                    <p>Main Conference</p>
+                    <img src="stack-icons/JS.png">
+               </div>
+               <p>$200</p>
+            </article>
+            <section class="other-articles-section">
+                <article class="art">
+                    <div class="other-art-title-div">
+                        <input type="checkbox">
+                        <p>JavaScript Libraries Workshop</p>
+                        <img src="stack-icons/react.jpg">
+                    </div>
+                    <div class="other-art-schedule-div">
+                        <p>Tuesday 9am-12pm</p>
+                        <span>$100</span>
+                    </div>
+                </article>
+                <article class="art">
+                    <div class="other-art-title-div">
+                        <input type="checkbox">
+                        <p>JavaScript Libraries Workshop</p>
+                        <img src="stack-icons/angular.png">
+                    </div>
+                    <div class="other-art-schedule-div">
+                        <p>Tuesday 9am-12pm</p>
+                        <span>$100</span>
+                    </div>
+                </article>
+                <article class="art">
+                    <div class="other-art-title-div">
+                        <input type="checkbox">
+                        <p>JavaScript Libraries Workshop</p>
+                        <img src="stack-icons/angular.png">
+                    </div>
+                    <div class="other-art-schedule-div">
+                        <p>Tuesday 9am-12pm</p>
+                        <span>$100</span>
+                    </div>
+                </article>
+                <article class="art">
+                    <div class="other-art-title-div">
+                        <input type="checkbox">
+                        <p>JavaScript Libraries Workshop</p>
+                        <span>&#127912;</span>
+                    </div>
+                    <div class="other-art-schedule-div">
+                        <p>Tuesday 9am-12pm</p>
+                        <span>$100</span>
+                    </div>
+                </article>
+            </section>
+            <h1 class="total-amount">Total: $0</h1>
+        </section>
+
+
+        <section class="payment-info">
+            <h1>Payment Info</h1>
+            <section class="payment-section">
+                <div class="payment-method">
+                    <label for="payment">I'm going to pay with:</label>
+                    <select name="payment" id="payment-select" class="field payment-field">
+                        <option value="">Select Payment Method</option>
+                        <option value="card">Card</option>
+                        <option value="apple-pay">Apple Pay</option>
+                    </select>    
+                </div>
+                <div class="field card-number-field">
+                    <label for="card-number">Card number:*</label>
+                    <input type="number">
+                    
+
+                </section>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+    </main>
+</body>
+
+</html>
