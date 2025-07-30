@@ -23,7 +23,6 @@ label{
     padding-bottom: 30px;
     background: linear-gradient(135deg,rgb(255, 93, 93), rgb(247, 174, 40));
     border: 2px solid red;
-
 }
 
 .header-h4{
@@ -40,6 +39,7 @@ label{
     /* justify-content: start; */
     padding-top: 40px;
     padding-left: 200px;
+    padding-bottom: 25px;
 }
 
 
@@ -49,6 +49,7 @@ label{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #fbf7ec;
 }
 
 .info{
@@ -76,7 +77,7 @@ label{
 .basic-info{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
 }
 
@@ -124,7 +125,7 @@ label{
 
 
 .tshirt-info{
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .tshirt-info-item{
@@ -183,22 +184,26 @@ width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #fbf7ec;
 }
 
-.activity-section > h1{
+.register-title{
     width: 50%;
     margin-top: 40px;
     margin-bottom: 20px;
 }
 
 .main-conference-art{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: end;
     height: 100px;
     margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid rgb(187, 187, 187);
+
 
 }
 
@@ -235,16 +240,18 @@ width: 100%;
     width: 50%;
     display: flex;
     align-items: start;
-    gap: 1%;
+    gap: 2%;
     /* height: 80px; */
     flex-wrap: wrap;
 }
 
 .art{
-    width: 49.5%;
-    border: 2px solid red;
+    width: 48.5%;
+    /* border: 2px solid red; */
     height: 110px;
     margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid rgb(187, 187, 187);
 
 }
 
@@ -292,29 +299,118 @@ width: 100%;
     width:50%;
     display: flex;
     justify-content: end;
+    margin-top: 20px;
+}
+
+.payment-info-title{
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* border: 2px solid red; */
 }
 
 /* PAYMENT INFORMATION */
 
 .payment-info{
-    width: 50%;
+    width: 100%;
     display: flex;
-    justify-content: start;
-    flex-direction: column;
-}
-
-.payment-info > h1{
-    margin-bottom: 25px;
+    justify-content: center;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    gap: 1%;
 }
 
 
 .payment-section{
     display: flex;
     flex-direction: column;
+    /* border: 2px solid green; */
+    width:24.5%;
+}
 
+.card-number-div{
+    padding-top: 20px;
+}
+.card-details-container{
+    width:24.5%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    /* border: 2px solid salmon; */
+}
+
+.exp-date-year-container{
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+.expiration-date-div{
+    width: 55%;
+}
+
+.expiration-year-div{
+    width: 45%;
+}
+
+.zip-cvv-container{
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+.zip-code-div{
+    width: 55%;
+}
+
+.cvv-div{
+    width: 45%;
 }
 
 
-.test{
-    //ceva
+
+/* Paypal - Bitcoin */
+
+.paypal-bitcoin-section{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 40px;
+    align-items: start;
+    justify-content: space-evenly;
+    height: 300px;
+    padding-right: 10px;
+
+}
+
+.paypal-bitcoin-section > div{
+    
+    /* border: 2px solid red; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+        border: 2px solid rgb(187, 187, 187);
+
+}
+
+.paypal-div{
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.bitcoin-div{
+    background-color: white;
+}
+
+.register-button{
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    margin-top: 20px;
+    background-color: rgb(209, 39, 67);
+    color: white;
+    border-radius: 5px;
+    width: 20%;
+    font-weight: bold;
+    
+    
 }

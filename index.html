@@ -91,7 +91,7 @@
         </section>
 
         <section class="activity-section">
-            <h1>Register for Activities*</h1>
+            <h1 class="register-title">Register for Activities*</h1>
             <article class="main-conference-art card">
                <div class="main-conference-div">
                     <input type="checkbox">
@@ -147,11 +147,11 @@
                 </article>
             </section>
             <h1 class="total-amount">Total: $0</h1>
+            <h1 class="payment-info-title">Payment Info</h1>
         </section>
 
 
         <section class="payment-info">
-            <h1>Payment Info</h1>
             <section class="payment-section">
                 <div class="payment-method">
                     <label for="payment">I'm going to pay with:</label>
@@ -161,12 +161,59 @@
                         <option value="apple-pay">Apple Pay</option>
                     </select>    
                 </div>
-                <div class="field card-number-field">
+                <div class="card-number-div">
                     <label for="card-number">Card number:*</label>
-                    <input type="number">
+                    <input type="number" class="field card-number-field">
                     
+                </div> 
+            </section>
 
-                </section>
+
+            <section class="card-details-container">
+                    <section class="exp-date-year-container">
+                        <div class="expiration-date-div">
+                        <label for="expiration">Expiration Date:</label>
+                        <select name="exp-date" class="field expiration-date-field">
+                            <option></option>
+                        </select>
+                        <!-- <input type="date"> -->
+                        </div>
+
+                        <div class="expiration-year-div">
+                        <label for="expiration">Expiration Year:</label>
+                        <select name="exp-year" class="field expiration-year-field">
+                            <option>Select Year</option>
+                        </select>
+                        </div>
+                    </section>
+                    <section class="zip-cvv-container">
+                        <div class="zip-code-div">
+                            <label for="zipcode">Zip Code:*</label>
+                            <input type="number" class="field zip-field">
+                        </div>
+
+                        <div class="cvv-div">
+                            <label for="cvvcode">CVV:*</label>
+                            <input type="number" class="field cvv-field">
+                        </div>
+                    </section>
+
+                   
+            </section>
+        </section>
+
+         <section class="paypal-bitcoin-section">
+            <div class="paypal-div"> 
+                <h1>Paypal</h1>
+                <p>If you selected the Paypal option we'll take you dsadasdsafsafaffsdfsa Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+           
+            <div class="bitcoin-div"> 
+                <h1>Bitcoin</h1>
+                <p>If you selected the Bitcoin option we'll take you dsadasdsafsafaffsdfsa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat suscipit qua!</p>
+            </div>
+            <div class="register-button">
+                <p>REGISTER</p>
             </div>
         </section>
 
